@@ -60,8 +60,5 @@ class String
             rows = orig.join.scan(/.{#{numcols}}/)
 
 
-            test edit 
-
-
         end
 end
