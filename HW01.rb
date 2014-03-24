@@ -41,7 +41,7 @@ class String
                #rows = rows.values
                #puts "\n hash болгож хөрвүүлсний дараах утга = #{rows}"
                
-               myrand = Random.new(k1+5) 
+               myrand = Random.new(k1+1) 
 
                #rows.map{|row| row.chars{|x| puts x, myrand.rand}}
                
@@ -118,7 +118,7 @@ class String
             #puts "#{ran}"
             #ran = ran.scan(/.{#{numcols}}/)
             #puts "#{ran}"
-            myrand = Random.new(k1+5)
+            myrand = Random.new(k1+1)
             
             ran.each {|row| row.chars{ array.push(myrand.rand) }}
             #puts "array 's value #{array}"
